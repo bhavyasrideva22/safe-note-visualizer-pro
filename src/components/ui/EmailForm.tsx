@@ -4,7 +4,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { SafeInputs, SafeResults } from "@/utils/calculatorLogic";
-import { Email } from "lucide-react";
+import { Mail } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 
 interface EmailFormProps {
@@ -63,7 +63,7 @@ const EmailForm: React.FC<EmailFormProps> = ({ inputs, results }) => {
   return (
     <div className="calculator-card">
       <div className="flex items-center mb-6">
-        <Email className="w-6 h-6 text-primary mr-2" />
+        <Mail className="w-6 h-6 text-primary mr-2" />
         <h2 className="text-xl font-semibold text-primary">
           Email Results
         </h2>
